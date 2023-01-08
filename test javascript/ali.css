@@ -1,0 +1,15 @@
+.text{
+    
+    margin-bottom: 5px;
+display: block;
+}
+.pass{
+    margin-bottom: 5px;
+    display: block;
+    place-items: r;
+}
+.sub{
+    padding: 5px;
+    width: 80px;
+   margin-left: 50px;
+}

@@ -1,0 +1,151 @@
+
+:root{
+    --btn-color:  rgba(64, 13, 115);
+--Pink-color: #ff1493;
+--text-and-nav:rgba(64, 13, 115);
+}
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: url('bg-m&w-women.jpg') ;
+ /* fallback for old browsers */
+ background: #f093fb;
+        
+ /* Chrome 10-25, Safari 5.1-6 */
+ background: -webkit-linear-gradient(to bottom right, rgb(81, 81, 252), rgba(245, 87, 108));
+ 
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ background: linear-gradient(to bottom right, rgb(81, 81, 252), rgba(245, 87, 108));
+ 
+
+}
+
+
+/* img start  */
+.carousel-item  img {
+    height:  300px;
+}
+
+/* img end */
+
+/*start-navbar*/
+.navbar{
+    background-color: var(--text-and-nav);
+    
+  
+}
+.logo-nav{
+    width: 200px;
+ }
+.b-search{
+    
+    background-color:var(--btn-color) !important;
+    
+}
+.b-search:hover{
+    font-weight: 500 !important;
+    background-color:var(--Pink-color) !important;
+    transition: 0.7s !important;
+    transform: scale(1.1) !important;
+    font-weight: 700 !important;
+    
+
+}
+
+ .navbar-nav .nav-item .nav-link{
+    color: white;
+    font-weight: 700;
+  }
+
+.navbar-nav .nav-item .nav-link:not(.active):hover{
+ transform: scale(1.1); 
+transition: 0.7s;
+   color:var(--Pink-color);
+  border-left: 5px solid rgb(81, 81, 252);
+  border-right: 5px solid var(--Pink-color);
+border-radius: 50%; }
+
+.navbar-nav .nav-item .nav-link.active{
+  border:  2px solid var(--Pink-color);  
+  border-radius: 10px;
+}
+.navbar-nav .nav-item .nav-link.active:hover{
+   background-color: var(--Pink-color);
+   transition: 0.7s;
+}
+
+
+.dropdown-menu {
+    left: -85px !important;
+    /* background-color: red  !important; */
+    background: radial-gradient(circle, #ab54ad 0%, #6151ed 100%) ;
+
+}
+
+.img_class img {
+    height: 350px ; 
+}
+
+.dropdown-menu  li a  {
+    color: white ;
+}
+ .dropdown-menu .other-products:hover{ 
+      transition: 0.7s;
+     background-color: crimson; 
+    color: white;
+ }
+
+
+/*End-navbar*/
+/* start-sign-in*/
+.logo-sign-in{
+    
+    width: 300px;
+    height: 200px;
+
+    margin: auto;
+
+    display: block;
+
+
+   }
+     .form-signin .form-control{
+        background-color:var(--btn-color);
+    opacity: 0.5;
+  
+     }
+   
+     /* End-sign-in*/
+
+
+
+     
+
+     
+
+
+/* Start sign Up*/
+    
+        
+        .card-registration .select-input.form-control[readonly]:not([disabled]) {
+        font-size: 1rem;
+        line-height: 2.15;
+        padding-left: .75em;
+        padding-right: .75em;
+        }
+        .card-registration .select-arrow {
+        top: 13px;
+        }
+    /* End sign Up*/
+
+/*Start card */
+.price{
+    margin-right: 120px;
+    color:#6151ed;
+    font-weight: bolder;
+}
+/*End card */

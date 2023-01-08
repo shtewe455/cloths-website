@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول</title>
+</head>
+
+<link rel="stylesheet" href="m&w.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet" />
+
+<body>
+
+  <nav class="navbar navbar-expand-lg sticky-top static-sm h-sm-50">
+    <div class="container-fluid ">
+          <img class="logo-nav " src="M&W شفاف.png" alt="">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+        <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+          <ul class="navbar-nav  mx-auto   mb-4 mb-lg-0  text-light text-center">
+            <li class="nav-item mx-0 mx-xl-4 fs-6 fs-xl-2 px-lg-1  px-xl-0" style="font-family:'Blaka Ink';">
+              <a class="nav-link active "  aria-current="page" href="index.html">الرئسية</a>
+            </li>
+
+            <li class="nav-item mx-0 mx-xl-4 fs-6 fs-xl-2 px-lg-1  px-xl-0" style="font-family:'Blaka Ink';">
+              <a class="nav-link " href="index.html#who-are-we">من نحن</a>
+            </li>
+
+            <li class="nav-item mx-0 mx-xl-4 fs-6 fs-xl-2 px-lg-1  px-xl-0 " style="font-family:'Blaka Ink';">
+              <a class="nav-link " href="index.html#contact-us">تواصل معنا</a>
+            </li>
+
+            <li class="nav-item mx-0 mx-xl-4 fs-6 fs-xl-2 px-lg-1  px-xl-0" style="font-family:'Blaka Ink';">
+              <a class="nav-link " href="m&w-login.html"> تسجيل الدخول</a>
+            </li>
+
+            <li class="nav-item dropdown mx-0 mx-xl-4 fs-6 fs-xl-2  px-lg-1 px-xl-0 " style="font-family:'Blaka Ink';">
+              <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              ملابس
+              </a>
+         
+              <ul class="dropdown-menu  text-end" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item " href="m&w-men.html"> رجال</a></li>
+                <li><a class="dropdown-item" href="m&w-women.html">نساء</a></li>
+                <li><a class="dropdown-item" href="m&w-kids.html">اطفال</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item other-products" href="#">منتجات اخرى</a></li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="d-flex me-5 ">
+            <input class="form-control me-1 d-none d-lg-block " id="search" type="search" placeholder="بحث" aria-label="Search">
+          
+            <button class="px-3 py-2 me-2  rounded-2 ms-1 b-search d-none d-lg-block" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+
+
+      </div>
+    </div>
+
+  </nav>
+
+  
+    <section  height="100px">
+        <div class="container py-5 h-100 ">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+              <div class="card shadow-2-strong" style="border-radius: 1rem;">
+                <div class="card-body p-5 text-center">
+      
+                  <h3 class="mb-5  p-3 px-1"style=" transform: scale(1.1); 
+                  transition: 0.7s;
+                     color:var(--Pink-color);
+                    border-left: 8px solid rgb(81, 81, 252);
+                    border-right: 8px solid var(--Pink-color);
+                  border-radius: 50%;">تسجيل الدخول</h3>
+      
+                  <div class="form-outline mb-4  ">
+                     <label class="form-label" for="typeEmailX-2">البريد الالكتروني</label>
+                    <input type="email" id="typeEmailX-2" class="form-control form-control-lg text-end" placeholder="البريد الالكتروني" />
+                   
+                  </div>
+      
+                  <div class="form-outline mb-4">
+                    <label class="form-label" for="typePasswordX-2">كلمة المرور</label>
+                    <input type="password" id="typePasswordX-2" class="form-control form-control-lg text-end"  placeholder=" ادخل كلمة مرور"/>
+                    
+                  </div>
+
+                  <!-- Checkbox -->
+                  <div class="form-check d-flex  justify-content-end gap-5 mb-4">
+                     <label class="form-check-label" for="form1Example3"> تذكرني </label>
+                    <input class="form-check-input" type="checkbox" value="" id="form1Example3" />
+                  </div>
+      
+                  <button class=" b-search btn-lg btn-block text-light" type="submit">Login</button>
+      
+                  <hr class="my-4">
+      
+                  <button class="btn btn-lg btn-block btn-primary mb-2 " style="background-color: #dd4b39;"
+                    type="submit"><i class="fab fa-google   ms-3"></i> التسجيل بحساب  جوجل</button>
+                  <button class="btn btn-lg btn-block btn-primary mb-2" style="background-color: #3b5998;"
+                    type="submit"><i class="fab fa-facebook-f  ms-2 "></i> التسجيل بحساب فيسبوك </button>
+                    <hr>
+                 <a href="m&w-sign-up.html"><button class="btn btn-lg btn-block btn-primary  mb-2 text-uppercase "  style=" background: linear-gradient(to bottom right, rgb(44, 44, 168), rgba(245, 87, 108));"
+                    type="submit"><i class="fa-solid fa-right-to-bracket ms-2"></i>التسجيل في<span class="text-primary">m</span>&<span class="text-danger ">w</span> Shop</h3> </button></a> 
+      
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+
+
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/all.min.js"></script>
+</body>
+</html>
